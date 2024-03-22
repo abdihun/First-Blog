@@ -1,0 +1,46 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
+
+.border1{
+    padding: 10px;
+    border: solid;
+    height: 100vh;
+    border-width: 10px;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.light {
+    background-color: white;
+    color: black;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sun {
+    display: flex;
+    color: yellow;
+}
+
+a {
+    color: blue;
+}
